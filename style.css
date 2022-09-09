@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+.navbar {
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.logo_img {
+  width: 150px;
+  height: 70px;
+}
+li {
+  display: inline-block;
+  margin: 20px;
+  padding: 6px;
+}
+a.link {
+  color: Black;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Arial;
+  /* text-decoration: none; */
+  text-decoration: underline transparent solid 2px;
+  transition: text-decoration 0.5s;
+}
+a.link:hover {
+  text-decoration: underline rgb(56, 172, 134); solid 2px;
+  width: 100%;
+}
+.content {
+  /* border: 2px solid black;
+  width: 60%;
+  text-transform: capitalize;
+  font-family: Arial, Helvetica, sans-serif;
+  /* display: flex; */
+  /*justify-content: center;
+  align-items: center;
+  text-align: center; */
+
+  /* text-align: center; */
+
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.content h1 {
+  font-size: 40px;
+  margin: 10px;
+}
+.content p {
+  font-size: 20px;
+  margin: 10px;
+}
+.content button {
+  font-size: 20px;
+  padding: 11px;
+  margin: 10px;
+  background-color: transparent;
+  border: 2px solid rgb(56, 172, 134);
+  transition: background-color 0.5s;
+  border-radius: 50px;
+}
+button:hover {
+  background-color: rgb(56, 172, 134);
+}
